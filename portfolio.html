@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Mikki Lens</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-900">
+    <!-- Navbar -->
+    <nav class="bg-white border-b border-gray-200 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex-shrink-0">
+                    <a href="index.html" class="text-2xl font-bold text-black hover:text-gray-700 transition-colors">Mikki Lens</a>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-gray-700 hover:text-black transition-colors">Home</a>
+                    <a href="about.html" class="text-gray-700 hover:text-black transition-colors">About</a>
+                    <a href="services.html" class="text-gray-700 hover:text-black transition-colors">Services</a>
+                    <a href="portfolio.html" class="text-gray-700 hover:text-black transition-colors">Portfolio</a>
+                    <a href="contact.html" class="text-gray-700 hover:text-black transition-colors">Contact</a>
+                </div>
+                <div class="md:hidden">
+                    <button class="text-gray-700 hover:text-black focus:outline-none">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="bg-gradient-to-br from-gray-900 to-gray-800 text-white py-16 md:py-24">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h1 class="text-4xl md:text-5xl font-bold">My Portfolio</h1>
+            <p class="text-gray-300 text-lg mt-4">Showcase of recent work and creative projects</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Content -->
+    <section class="py-20 md:py-32 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <!-- Photography Section -->
+            <div class="mb-20">
+                <h2 class="text-3xl md:text-4xl font-bold mb-12 pb-6 border-b-2 border-gray-900">Photography</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="group relative overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                        <img src="https://images.unsplash.com/photo-1506157786151-b8491531f063?w=400&h=400&fit=crop" alt="Portrait Photography" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300">
+                        <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-end">
+                            <p class="text-white font-semibold p-4 w-full bg-gradient-to-t from-black to-transparent opacity-0 group-hover:opacity-100 transition-opacity">Portrait Series</p>
+                        </div>
+                    </div>
+                    <div class="group relative overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                        <img src="https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=400&h=400&fit=crop" alt="Landscape Photography" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300">
+                        <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-end">
+                            <p class="text-white font-semibold p-4 w-full bg-gradient-to-t from-black to-transparent opacity-0 group-hover:opacity-100 transition-opacity">Landscape Collection</p>
+                        </div>
+                    </div>
+                    <div class="group relative overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                        <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=400&h=400&fit=crop" alt="Commercial Photography" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300">
+                        <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-end">
+                            <p class="text-white font-semibold p-4 w-full bg-gradient-to-t from-black to-transparent opacity-0 group-hover:opacity-100 transition-opacity">Commercial Work</p>
+                        </div>
+                    </div>
+                    <div class="group relative overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                        <img src="https://images.unsplash.com/photo-1495707902905-78489c63b41f?w=400&h=400&fit=crop" alt="Event Photography" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300">
+                        <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-end">
+                            <p class="text-white font-semibold p-4 w-full bg-gradient-to-t from-black to-transparent opacity-0 group-hover:opacity-100 transition-opacity">Event Coverage</p>
+                        </div>
+                    </div>
+                    <div class="group relative overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                        <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop" alt="Fashion Photography" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300">
+                        <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-end">
+                            <p class="text-white font-semibold p-4 w-full bg-gradient-to-t from-black to-transparent opacity-0 group-hover:opacity-100 transition-opacity">Fashion Series</p>
+                        </div>
+                    </div>
+                    <div class="group relative overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                        <img src="https://images.unsplash.com/photo-1453496169629-07367fa36c33?w=400&h=400&fit=crop" alt="Nature Photography" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300">
+                        <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-end">
+                            <p class="text-white font-semibold p-4 w-full bg-gradient-to-t from-black to-transparent opacity-0 group-hover:opacity-100 transition-opacity">Nature Exploration</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Videography Section -->
+            <div class="mb-20">
+                <h2 class="text-3xl md:text-4xl font-bold mb-12 pb-6 border-b-2 border-gray-900">Videography</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="group relative overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                        <img src="https://images.unsplash.com/photo-1554080221-cbf01a7a72e5?w=400&h=400&fit=crop" alt="Corporate Video" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300">
+                        <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center">
+                            <svg class="w-16 h-16 text-white opacity-0 group-hover:opacity-100 transition-opacity" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M8 5v14l11-7z"></path>
+                            </svg>
+                        </div>
+                        <p class="absolute bottom-0 left-0 right-0 text-white font-semibold p-4 bg-gradient-to-t from-black to-transparent opacity-0 group-hover:opacity-100 transition-opacity">Corporate Video</p>
+                    </div>
+                    <div class="group relative overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                        <img src="https://images.unsplash.com/photo-1533627519674-509cf1ef9359?w=400&h=400&fit=crop" alt="Wedding Film" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300">
+                        <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center">
+                            <svg class="w-16 h-16 text-white opacity-0 group-hover:opacity-100 transition-opacity" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M8 5v14l11-7z"></path>
+                            </svg>
+                        </div>
+                        <p class="absolute bottom-0 left-0 right-0 text-white font-semibold p-4 bg-gradient-to-t from-black to-transparent opacity-0 group-hover:opacity-100 transition-opacity">Wedding Films</p>
+                    </div>
+                    <div class="group relative overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                        <img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?w=400&h=400&fit=crop" alt="Event Coverage" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300">
+                        <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center">
+                            <svg class="w-16 h-16 text-white opacity-0 group-hover:opacity-100 transition-opacity" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M8 5v14l11-7z"></path>
+                            </svg>
+                        </div>
+                        <p class="absolute bottom-0 left-0 right-0 text-white font-semibold p-4 bg-gradient-to-t from-black to-transparent opacity-0 group-hover:opacity-100 transition-opacity">Event Coverage</p>
+                    </div>
+                    <div class="group relative overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                        <img src="https://images.unsplash.com/photo-1498038432595-1ce55b0f0ba2?w=400&h=400&fit=crop" alt="Documentary" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300">
+                        <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center">
+                            <svg class="w-16 h-16 text-white opacity-0 group-hover:opacity-100 transition-opacity" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M8 5v14l11-7z"></path>
+                            </svg>
+                        </div>
+                        <p class="absolute bottom-0 left-0 right-0 text-white font-semibold p-4 bg-gradient-to-t from-black to-transparent opacity-0 group-hover:opacity-100 transition-opacity">Documentary</p>
+                    </div>
+                    <div class="group relative overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=400&fit=crop" alt="Music Video" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300">
+                        <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center">
+                            <svg class="w-16 h-16 text-white opacity-0 group-hover:opacity-100 transition-opacity" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M8 5v14l11-7z"></path>
+                            </svg>
+                        </div>
+                        <p class="absolute bottom-0 left-0 right-0 text-white font-semibold p-4 bg-gradient-to-t from-black to-transparent opacity-0 group-hover:opacity-100 transition-opacity">Music Video</p>
+                    </div>
+                    <div class="group relative overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                        <img src="https://images.unsplash.com/photo-1516481318259-2d9d0218ce52?w=400&h=400&fit=crop" alt="Product Video" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300">
+                        <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center">
+                            <svg class="w-16 h-16 text-white opacity-0 group-hover:opacity-100 transition-opacity" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M8 5v14l11-7z"></path>
+                            </svg>
+                        </div>
+                        <p class="absolute bottom-0 left-0 right-0 text-white font-semibold p-4 bg-gradient-to-t from-black to-transparent opacity-0 group-hover:opacity-100 transition-opacity">Product Video</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Web Design Section -->
+            <div>
+                <h2 class="text-3xl md:text-4xl font-bold mb-12 pb-6 border-b-2 border-gray-900">Web Design</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="group relative overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                        <img src="https://images.unsplash.com/photo-1460925895917-aeb19be489c7?w=400&h=400&fit=crop" alt="E-commerce Site" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300">
+                        <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-end">
+                            <p class="text-white font-semibold p-4 w-full bg-gradient-to-t from-black to-transparent opacity-0 group-hover:opacity-100 transition-opacity">E-commerce Platform</p>
+                        </div>
+                    </div>
+                    <div class="group relative overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                        <img src="https://images.unsplash.com/photo-1452587925148-ce544e77e70d?w=400&h=400&fit=crop" alt="Portfolio Website" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300">
+                        <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-end">
+                            <p class="text-white font-semibold p-4 w-full bg-gradient-to-t from-black to-transparent opacity-0 group-hover:opacity-100 transition-opacity">Portfolio Site</p>
+                        </div>
+                    </div>
+                    <div class="group relative overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                        <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=400&h=400&fit=crop" alt="Business Website" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300">
+                        <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-end">
+                            <p class="text-white font-semibold p-4 w-full bg-gradient-to-t from-black to-transparent opacity-0 group-hover:opacity-100 transition-opacity">Business Website</p>
+                        </div>
+                    </div>
+                    <div class="group relative overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&h=400&fit=crop" alt="SaaS Platform" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300">
+                        <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-end">
+                            <p class="text-white font-semibold p-4 w-full bg-gradient-to-t from-black to-transparent opacity-0 group-hover:opacity-100 transition-opacity">SaaS Platform</p>
+                        </div>
+                    </div>
+                    <div class="group relative overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=400&fit=crop" alt="Corporate Site" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300">
+                        <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-end">
+                            <p class="text-white font-semibold p-4 w-full bg-gradient-to-t from-black to-transparent opacity-0 group-hover:opacity-100 transition-opacity">Corporate Site</p>
+                        </div>
+                    </div>
+                    <div class="group relative overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                        <img src="https://images.unsplash.com/photo-1546900703-cf06143f350d?w=400&h=400&fit=crop" alt="Creative Agency" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300">
+                        <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-end">
+                            <p class="text-white font-semibold p-4 w-full bg-gradient-to-t from-black to-transparent opacity-0 group-hover:opacity-100 transition-opacity">Creative Agency</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA -->
+            <div class="mt-20 text-center">
+                <p class="text-gray-600 text-lg mb-6">Interested in working with me?</p>
+                <a href="contact.html" class="inline-block px-8 py-3 bg-black text-white font-semibold hover:bg-gray-800 transition-colors rounded-lg">
+                    Start Your Project
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <h4 class="text-lg font-bold mb-2">Mikki Lens</h4>
+                    <p class="text-gray-400">Visual Storyteller & Digital Creator</p>
+                </div>
+                <div>
+                    <h5 class="font-semibold mb-4">Quick Links</h5>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="index.html" class="hover:text-white transition-colors">Home</a></li>
+                        <li><a href="about.html" class="hover:text-white transition-colors">About</a></li>
+                        <li><a href="services.html" class="hover:text-white transition-colors">Services</a></li>
+                        <li><a href="portfolio.html" class="hover:text-white transition-colors">Portfolio</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="font-semibold mb-4">Follow Me</h5>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors" aria-label="Instagram">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.266.069 1.646.069 4.85 0 3.204-.012 3.584-.07 4.85-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.85-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.069-1.644-.069-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zM5.838 12a6.162 6.162 0 1 1 12.324 0 6.162 6.162 0 0 1-12.324 0zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm4.965-10.322a1.44 1.44 0 1 1 2.881.001 1.44 1.44 0 0 1-2.881-.001z"></path>
+                            </svg>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors" aria-label="YouTube">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path>
+                            </svg>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors" aria-label="GitHub">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v 3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 pt-8">
+                <p class="text-center text-gray-400">
+                    &copy; 2026 Mikki Lens. All rights reserved. | Designed with care.
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
