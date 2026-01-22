@@ -12,7 +12,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-16">
                 <div class="flex-shrink-0">
-                    <a href="index.html" class="text-2xl font-bold text-black hover:text-gray-700 transition-colors">Mikki Lens</a>
+                    <a href="index.html" class="hover:opacity-80 transition-opacity"><img src="scr/Image/web-logo.png" alt="Mikki Lens" class="h-10 w-auto"></a>
                 </div>
                 <div class="hidden md:flex space-x-8">
                     <a href="index.html" class="text-gray-700 hover:text-black transition-colors">Home</a>
@@ -22,12 +22,22 @@
                     <a href="contact.html" class="text-gray-700 hover:text-black transition-colors">Contact</a>
                 </div>
                 <div class="md:hidden">
-                    <button class="text-gray-700 hover:text-black focus:outline-none">
+                    <button id="mobile-menu-btn" class="text-gray-700 hover:text-black focus:outline-none">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
                         </svg>
                     </button>
                 </div>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-200">
+            <div class="px-4 pt-2 pb-3 space-y-1">
+                <a href="index.html" class="block px-3 py-2 text-gray-700 hover:text-black hover:bg-gray-50 transition-colors rounded">Home</a>
+                <a href="about.html" class="block px-3 py-2 text-gray-700 hover:text-black hover:bg-gray-50 transition-colors rounded">About</a>
+                <a href="services.html" class="block px-3 py-2 text-gray-700 hover:text-black hover:bg-gray-50 transition-colors rounded">Services</a>
+                <a href="portfolio.html" class="block px-3 py-2 text-gray-700 hover:text-black hover:bg-gray-50 transition-colors rounded">Portfolio</a>
+                <a href="contact.html" class="block px-3 py-2 text-gray-700 hover:text-black hover:bg-gray-50 transition-colors rounded">Contact</a>
             </div>
         </div>
     </nav>
@@ -49,37 +59,37 @@
                 <h2 class="text-3xl md:text-4xl font-bold mb-12 pb-6 border-b-2 border-gray-900">Photography</h2>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                     <div class="group relative overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow">
-                        <img src="https://images.unsplash.com/photo-1506157786151-b8491531f063?w=400&h=400&fit=crop" alt="Portrait Photography" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300">
+                        <img src="scr/Image/portraits.jpg" alt="Portrait Photography" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300">
                         <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-end">
                             <p class="text-white font-semibold p-4 w-full bg-gradient-to-t from-black to-transparent opacity-0 group-hover:opacity-100 transition-opacity">Portrait Series</p>
                         </div>
                     </div>
                     <div class="group relative overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow">
-                        <img src="https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=400&h=400&fit=crop" alt="Landscape Photography" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300">
+                        <img src="scr/Image/1.jpg" alt="Landscape Photography" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300">
                         <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-end">
                             <p class="text-white font-semibold p-4 w-full bg-gradient-to-t from-black to-transparent opacity-0 group-hover:opacity-100 transition-opacity">Landscape Collection</p>
                         </div>
                     </div>
                     <div class="group relative overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow">
-                        <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=400&h=400&fit=crop" alt="Commercial Photography" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300">
+                        <img src="scr/Image/product1.jpg" alt="Commercial Photography" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300">
                         <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-end">
                             <p class="text-white font-semibold p-4 w-full bg-gradient-to-t from-black to-transparent opacity-0 group-hover:opacity-100 transition-opacity">Commercial Work</p>
                         </div>
                     </div>
                     <div class="group relative overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow">
-                        <img src="https://images.unsplash.com/photo-1495707902905-78489c63b41f?w=400&h=400&fit=crop" alt="Event Photography" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300">
+                        <img src="scr/Image/event.jpg" alt="Event Photography" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300">
                         <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-end">
                             <p class="text-white font-semibold p-4 w-full bg-gradient-to-t from-black to-transparent opacity-0 group-hover:opacity-100 transition-opacity">Event Coverage</p>
                         </div>
                     </div>
                     <div class="group relative overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow">
-                        <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop" alt="Fashion Photography" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300">
+                        <img src="scr/Image/fashion1.jpg" alt="Fashion Photography" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300">
                         <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-end">
                             <p class="text-white font-semibold p-4 w-full bg-gradient-to-t from-black to-transparent opacity-0 group-hover:opacity-100 transition-opacity">Fashion Series</p>
                         </div>
                     </div>
                     <div class="group relative overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow">
-                        <img src="https://images.unsplash.com/photo-1453496169629-07367fa36c33?w=400&h=400&fit=crop" alt="Nature Photography" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300">
+                        <img src="scr/Image/2.jpg" alt="Nature Photography" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300">
                         <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-end">
                             <p class="text-white font-semibold p-4 w-full bg-gradient-to-t from-black to-transparent opacity-0 group-hover:opacity-100 transition-opacity">Nature Exploration</p>
                         </div>
@@ -247,5 +257,21 @@
             </div>
         </div>
     </footer>
+    <script>
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+        
+        // Close menu when a link is clicked
+        const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+        mobileMenuLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+    </script>
 </body>
 </html>
