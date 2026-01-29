@@ -43,8 +43,15 @@
     </nav>
 
     <!-- Hero Section -->
-    <section class="bg-gradient-to-br from-gray-900 to-gray-800 text-white py-20 md:py-32">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section class="relative text-white py-20 md:py-32 overflow-hidden" id="hero-section">
+        <!-- Background image slideshow -->
+        <div class="absolute inset-0 z-0">
+            <img id="hero-bg-image" src="./scr/Image/20.jpg" class="w-full h-full object-cover" alt="Hero Background">
+            <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+        </div>
+        
+        <!-- Content -->
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="text-center">
                 <h2 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
                     Visual Storyteller & Digital Creator
@@ -305,6 +312,7 @@
         </div>
     </footer>
     <script>
+        // Mobile menu functionality
         const mobileMenuBtn = document.getElementById('mobile-menu-btn');
         const mobileMenu = document.getElementById('mobile-menu');
         
